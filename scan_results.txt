@@ -1,0 +1,11 @@
+# Nmap 7.98 scan initiated Mon Sep 22 20:19:45 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -oN scan_results.txt 10.***.**.**
+Nmap scan report for 10.***.**.**
+Host is up (0.000049s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+7070/tcp open  realserver
+
+# Nmap done at Mon Sep 22 20:19:46 2025 -- 1 IP address (1 host up) scanned in 0.86 seconds
